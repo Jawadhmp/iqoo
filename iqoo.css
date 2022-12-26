@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+    font-family: "AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+}
+body{
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.logo{
+    width: 22%;
+    float:left ;
+}
+.iqoo-text{
+    
+    margin-left: 140px;
+    font-size: 33px;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+.iqoo-text:hover{
+    cursor: pointer;
+    color: yellow;
+    transition-duration: 0.4s;
+}
+
+.menu{
+    width: 60%;
+    float:left ;
+    
+}
+
+.options{
+    display: flex;
+    list-style-type: none;
+    float:left ;
+
+   
+}
+
+.options li{
+    margin-right: 20px; 
+}
+.options li:hover{
+    cursor: pointer;
+    color: orangered;
+    transition-duration: 0.4s;
+    
+}
+.login{
+    width: 18%;
+    float:left ;
+}
+
+.login-image{
+    width: 25px;
+    margin-left: 70px;
+    margin-top: 8px;
+    filter: invert(1);
+}
+.login-image:hover{
+    cursor: pointer;
+    
+}
+
+.content-1{
+    width: 100%;
+    
+}
+.content-1-image{
+    width: 100%;
+}
+
+.content-2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    
+}
+
+.image-1{
+    width: 25%;
+    float: left;
+    padding-left: 5px;
+}
+.image-1 img{
+    width: 100%;
+    height: 100%;
+}
+.image-2{
+    width: 25%;
+    float: left;
+    padding-left: 5px;    
+}
+.image-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.image-3{
+    width: 25%;
+    float: left;
+    padding-left: 5px;
+}
+.image-3 img{
+    width: 100%;
+    height: 100%;
+}
+.image-4{
+    width: 25%;
+    float: left;
+    padding-left: 5px;
+
+}
+.image-4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+width: 100%;
+height: 472px;
+
+}
+.upper{
+    width: 100%;
+    height: 406px;
+    float: left;
+   
+   
+}
+
+.above{
+    width: 100%;
+    height: 314px;
+    float: left;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.left-part{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.left-1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+
+.purchase-2{
+    color: grey;
+}
+.purchase-2:hover{
+    cursor: pointer;
+    color: orangered;
+}
+.left-2{
+    width: 50%;
+    height: 100%;
+    float: left;
+     
+}
+.support{
+    width: 50%;
+    height: 100%;
+    
+    float: left;
+}
+.support-1{
+
+}
+
+.support-2{
+    padding-inline-start: 0px;
+    list-style-type: none; 
+    color: grey;   
+}
+.support-2 li:hover{
+    cursor: pointer;
+    color: orangered;
+}
+.about{
+    width: 50%;
+    height: 100%;
+    float: left;
+   
+}
+.about-1{
+    
+}
+.about-2{
+    padding-inline-start: 0px;
+    list-style-type: none;  
+    color: grey;
+}
+.about-2 li:hover{
+    cursor: pointer;
+    color: orangered;
+}
+.right-part{
+    padding-left: 317px;
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+
+.facebook{
+    width:20px ;
+    border-radius: 10px;
+}
+.instagram{
+    width:20px ;
+    border-radius: 10px;
+}
+.youtube{
+    width:30px ;
+    border-radius: 15px;
+}
+.twitter{
+    width:20px ;
+    
+}
+.below{
+    width: 100%;
+    height: 92px;
+    
+    float: left;
+}
+.hr{
+    width: 78%;
+    color: grey;
+    
+}
+.terms{
+    display: flex;
+    font-size: small;
+    margin-left: 125px;
+    
+}
+.terms li{
+    padding-right: 20px;
+    list-style-type: none;
+    color: gray;
+    
+}
+.terms li:hover{
+    cursor: pointer;
+    color: orangered;
+}
+.lower{
+    width: 100%;
+    height: 66px;
+    background-color: black;
+    float: left;
+
+}
+
+.copyright{
+    font-size: small;
+    color:gray;
+    text-align: center;
+}
